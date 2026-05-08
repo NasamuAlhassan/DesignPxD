@@ -3,7 +3,7 @@
 Forge is a premium dark-mode Next.js app for adaptive study planning with mock AI flows.
 
 ## Tech stack
-- Next.js 14 + TypeScript
+- Next.js 15 + TypeScript
 - Tailwind CSS
 - shadcn-style reusable UI primitives
 - FullCalendar
