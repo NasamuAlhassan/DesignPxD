@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(79, 70, 229, 0.25), transparent 35%),
+    radial-gradient(circle at 80% 10%, rgba(34, 211, 238, 0.2), transparent 30%),
+    #0b1020;
+}
+
+.fc-theme-standard td,
+.fc-theme-standard th,
+.fc-theme-standard .fc-scrollgrid {
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.fc .fc-timegrid-slot-label-cushion,
+.fc .fc-col-header-cell-cushion,
+.fc .fc-timegrid-axis-cushion,
+.fc .fc-daygrid-day-number {
+  color: rgba(226, 232, 240, 0.9);
+  font-size: 12px;
+}
+
+.fc .fc-event {
+  border-radius: 10px;
+  padding: 2px 4px;
+  font-size: 12px;
+}
